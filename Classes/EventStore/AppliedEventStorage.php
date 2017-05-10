@@ -19,8 +19,8 @@ class AppliedEventStorage {
 	 * @param AppliedEvent $appliedEvent
 	 */
 	public function commit(AppliedEvent $appliedEvent) {
-		/*$this->persistenceManager->add($appliedEvent);
+		$this->persistenceManager->add($appliedEvent);
 		$this->persistenceManager->whitelistObject($appliedEvent);
-		$this->persistenceManager->persistAll();*/
+		$this->persistenceManager->persistAll();
 	}
 }
