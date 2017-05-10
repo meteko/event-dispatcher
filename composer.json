@@ -1,0 +1,18 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "meteko/events",
+    "require": {
+        "neos/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Meteko\\Events\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Meteko.Events"
+        }
+    }
+}
